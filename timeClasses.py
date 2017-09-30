@@ -6,6 +6,9 @@ class Time():
         hour = int( hour )
         minute = int( minute )
 
+    def getTime( self ):
+        return self.timeString
+
     def getHour(self):
         return hour
 
